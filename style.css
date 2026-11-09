@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: cursive;
+  color: blueviolet;
 }
 
 /* The Pixi canvas sits behind the text */
@@ -15,3 +16,4 @@ main {
   max-width: 40rem;
   padding: 2rem;
 }
+
