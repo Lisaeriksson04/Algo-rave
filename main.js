@@ -1,6 +1,6 @@
 // Start Pixi and put its canvas on the page
 const app = new PIXI.Application();
-await app.init({ resizeTo: window, background: "#89c4ff" });
+await app.init({ resizeTo: window, background: "#ffff" });
 document.body.appendChild(app.canvas);
 
 const dots = new PIXI.Graphics();
