@@ -29,5 +29,5 @@ app.ticker.add(() => {
     }
   }
   //ändrar färg på prickarna.
-  dots.fill("#ff3694");
+  dots.fill("#ce3aff");
 });
