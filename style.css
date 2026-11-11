@@ -4,7 +4,7 @@ body {
   color: blueviolet;
 }
 
-/* The Pixi canvas sits behind the text */
+/*pixianimationen ligger bakom andra element som text och bilder.*/
 canvas {
   position: fixed;
   top: 0;
@@ -17,6 +17,7 @@ main {
   padding: 2rem;
 }
 
+/*storlek bilder*/
 img {
   width: 300px;
   height: 200px;
