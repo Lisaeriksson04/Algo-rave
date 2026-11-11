@@ -1,6 +1,6 @@
 // Start Pixi and put its canvas on the page
 const app = new PIXI.Application();
-await app.init({ resizeTo: window, background: "#ffff" });
+await app.init({ resizeTo: window, background: "#4fff75" });
 document.body.appendChild(app.canvas);
 
 const dots = new PIXI.Graphics();
@@ -22,5 +22,5 @@ app.ticker.add(() => {
       dots.circle(x, y, Math.max(1, 8 - distance / 30));
     }
   }
-  dots.fill("#040002");
+  dots.fill("#ff3694");
 });
