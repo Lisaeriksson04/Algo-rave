@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: cursive;
   color: rgb(26, 0, 97);
+  /*centrerar innehållet i body*/
   text-align: center;
 }
 
@@ -15,6 +16,7 @@ canvas {
   z-index: -1;
 }
 
+/*bestämmer vart innehållet på sidan ska placeras*/
 main {
   max-width: 40rem;
   padding: 2rem;
